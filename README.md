@@ -1,43 +1,6 @@
-# Attila
+# Haizi
 
 A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [attila.zutrinken.com](https://attila.zutrinken.com/)
-
-Become a financial contributor to support future development of Attila. [[Contribute](https://paypal.me/zutrinken)]
-
-## Screenshots
-
-<table>
-<tr>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-desktop.jpg" />
-</td>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-mobile.jpg" />
-</td>
-</tr>
-</table>
-
-## Features
-
-* Responsive layout
-* Parallax cover images for blog, archives and posts
-* Reading progress for posts
-* Automatic code syntax highlight and line numbers
-* Disqus support
-
-## Localization
-
-* __English__
-* __German__
-* __Spanish__
-* __French__ by [robink](https://github.com/robink)
-* __Italian__ by [fmaida](https://github.com/fmaida)
-* __Norwegian__ by [arthurnoerve](https://github.com/arthurnoerve)
-* __Chinese__ by [hao-lee](https://github.com/hao-lee)
-* __Indonesian__ by [simplyeazy](https://github.com/simplyeazy)
-* __Romanian__ by [cdorin93](https://github.com/cdorin93)
-* __Russian__ by [schamberg97](https://github.com/schamberg97)
-* __Turkish__ by [cgrgrbz](https://github.com/cgrgrbz)
 
 ## Setup
 
