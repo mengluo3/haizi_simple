@@ -24,6 +24,4 @@ The compress Grunt task packages the theme files into `dist/<theme-name>.zip`, w
 
 	grunt compress
 
-## Copyright & License
 
-Copyright (C) 2015-2019 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
