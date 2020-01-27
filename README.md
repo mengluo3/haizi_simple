@@ -1,6 +1,6 @@
 # Haizi
 
-A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [attila.zutrinken.com](https://attila.zutrinken.com/)
+A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [https://mengmingluo.ghost.io](https://mengmingluo.ghost.io)
 
 ## Setup
 
