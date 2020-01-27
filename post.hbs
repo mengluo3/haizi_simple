@@ -55,6 +55,20 @@
 			<section class="post-comments">
 				<a id="show-disqus" class="post-comments-activate">{{t "Show Comments"}}</a>
 			   <div id="disqus_thread"></div>
+			   <div id="disqus_thread">
+					<script>
+					var disqus_config = function () {
+						this.page.url = "{{url absolute="true"}}";  
+						this.page.identifier = "ghost-{{comment_id}}"
+					};
+					(function() {
+					var d = document, s = d.createElement('script');
+					s.src = 'https://EXAMPLE.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+					})();
+					</script>
+				</div>
 			</section>
 
       {{#if @labs.subscribers}}
