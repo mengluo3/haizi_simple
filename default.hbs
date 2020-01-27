@@ -9,35 +9,47 @@
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset 'css/style.css'}}" />
 
 	{{ghost_head}}
 </head>
 
 <body class="{{body_class}}">
 
-	{{navigation}}
+	<div class="row">
 
-	<section id="wrapper">
-		<a class="hidden-close"></a>
-		{{{body}}}
-		<div id="body-class" style="display: none;" class="{{body_class}}"></div>
 
-		<footer id="footer">
-			<div class="inner">
-				<!--
-				<section class="credits">
-					<span class="credits-theme">{{t "Theme" }} <a href="https://github.com/zutrinken/attila">Haizi</a> {{t "by"}} <a href="https://mengmingluo.com" rel="nofollow">Mengming Luo</a></span>
-					<span class="credits-software">{{t "Published with"}} <a href="https://ghost.org">Ghost</a></span>
-				</section>
-				-->
-			</div>
-		</footer>
-	</section>
+	    <div class="col-sm-4" style="margin-left:3%">
+				{{navigation}}
+		</div>
+	
 
-	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
+		<div class="col-sm-8 inner" style="margin-left:20%; margin-right:10%;">
+			<section id="wrapper">
+				
+					<a class="hidden-close"></a>
+					{{{body}}}
+					<div id="body-class" style="display: none;" class="{{body_class}}"></div>
+				
 
-	{{ghost_foot}}
+				<footer id="footer">
+					<div class="inner">
+						
+						<section class="credits">
+							<span class="credits-theme">{{t "Theme: " }} <a href="https://github.com/zutrinken/attila">Haizi</a> {{t "by"}} <a href="https://mengmingluo.com" rel="nofollow">Mengming Luo</a></span>
+							<span class="credits-software">{{t "Published with"}} <a href="https://ghost.org">Ghost</a></span>
+						</section>
+						
+					</div>
+				</footer>
+			</section>
+		
+			<script type="text/javascript" src="{{asset 'js/script.js'}}"></script>
+
+			{{ghost_foot}}
+		</div><!--end of column-->
+
+	</div><!--end of row-->
 
 </body>
 </html>
