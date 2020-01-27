@@ -1,11 +1,24 @@
+<style>
+#menu li{
+	 list-style-type: none !important;
+}
+</style>
+
+
 <nav id="menu">
-	<a class="close-button">{{t "Close"}}</a>
+	<!--<a class="close-button">{{t "Close"}}</a>-->
 	<div class="nav-wrapper">
-		<p class="nav-label">{{t "Menu"}}</p>
+		<!--<p class="nav-label">{{t "Menu"}}</p>-->
 		<ul>
+			{{#if @site.twitter}}
+			<li class="nav-home"><a href="{{@site.url}}" title="{{@site.url}}" style="font-size:1em">Meng</a></li>
+			{{/if}}
+			<br>
 			{{#foreach navigation}}
 			<li class="nav-{{slug}}{{#if current}} active{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
 			{{/foreach}}
+
+			<!--
 			{{#if @site.twitter}}
 			<li class="nav-twitter"><a href="{{twitter_url}}" title="{{@site.twitter}}"><i class="ic ic-twitter"></i> Twitter</a></li>
 			{{/if}}
@@ -17,6 +30,7 @@
 			{{else}}
 			<li class="nav-rss"><a href="{{@site.url}}/rss/"><i class="ic ic-rss"></i> {{t "Subscribe"}}</a></li>
 			{{/if}}
+			-->
 		</ul>
 	</div>
 </nav>
